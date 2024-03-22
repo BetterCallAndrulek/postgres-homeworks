@@ -7,7 +7,7 @@ import psycopg2
 conn_params = {'host': "localhost",
                'database': "north",
                'user': "postgres",
-               'password': "newpasswod"}
+               'password': "newpassword"}
 
 data = {'customers': ['north_data/customers_data.csv', '%s, %s, %s'],
         'employees': ['north_data/employees_data.csv', '%s, %s, %s, %s, %s, %s'],
